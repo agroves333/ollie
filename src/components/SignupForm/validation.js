@@ -18,7 +18,7 @@ export default (values) => {
     )
   ) {
     errors.password =
-      'Invalid password. Password must be at least 8 characters, and contain 1 letter, 1 number and 1 special character'
+      'Invalid password. Password must be at least 8 characters, contain 1 letter, 1 number and 1 special character'
   }
 
   if (!values.passwordConfirm) {

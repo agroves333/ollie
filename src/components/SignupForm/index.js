@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import get from 'lodash/get'
 import { Button, Image, Text } from 'rebass'
@@ -9,6 +9,7 @@ import Input from '../Input'
 import Spinner from '../Spinner'
 import Message from '../Message'
 import validate from './validation'
+import { SERVER_URL } from './const'
 
 export default () => {
   const [message, setMessage] = useState({
@@ -22,15 +23,12 @@ export default () => {
       type: 'info',
     })
     try {
-      const response = await axios.post(
-        'https://32f2jzoot4.execute-api.us-east-1.amazonaws.com/default/fe-takehome-api',
-        values,
-        {
-          headers: {
-            'Content-Type': 'application/json',
-          },
+      const response = await axios.post(SERVER_URL, values, {
+        headers: {
+          'Content-Type': 'application/json',
         },
-      )
+      })
+
       if (response.status === 200) {
         setMessage({
           text: 'Form submitted successfully!',
@@ -61,10 +59,10 @@ export default () => {
       <Box width={[1, 1 / 2]} p={3}>
         <Formik
           initialValues={{
-            email: 'fdas@kk.com',
-            password: 'password123!',
-            passwordConfirm: 'password123!',
-            name: 'Brian',
+            email: '',
+            password: '',
+            passwordConfirm: '',
+            name: '',
             weight: 50,
             idealWeight: 50,
           }}
