@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ollie/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/ollie/static/js/main.bd4aba9d.chunk.js",
+    "main.js.map": "/ollie/static/js/main.bd4aba9d.chunk.js.map",
+    "runtime-main.js": "/ollie/static/js/runtime-main.13cb2938.js",
+    "runtime-main.js.map": "/ollie/static/js/runtime-main.13cb2938.js.map",
+    "static/js/2.b6fd4c80.chunk.js": "/ollie/static/js/2.b6fd4c80.chunk.js",
+    "static/js/2.b6fd4c80.chunk.js.map": "/ollie/static/js/2.b6fd4c80.chunk.js.map",
+    "index.html": "/ollie/index.html",
+    "precache-manifest.193f3cb16a4e8dae11542639c33ea7b9.js": "/ollie/precache-manifest.193f3cb16a4e8dae11542639c33ea7b9.js",
+    "service-worker.js": "/ollie/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/ollie/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.b6fd4c80.chunk.js.LICENSE.txt": "/ollie/static/js/2.b6fd4c80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13cb2938.js",
+    "static/js/2.b6fd4c80.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.bd4aba9d.chunk.js"
+  ]
+}
