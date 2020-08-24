@@ -1,58 +1,70 @@
-import React, { useState } from "react";
-import axios from "axios";
-import { Button, Image, Text } from "rebass";
-import { Flex, Box } from "reflexbox";
-import { Label } from "@rebass/forms";
-import { Formik, Field, Form, ErrorMessage } from "formik";
-import Loader from "react-spinners/ClipLoader";
-
-import Input from "../Input";
-import validate from "./validation";
-
-export const Message = ({ message }) => {
-  return <Box py={3}>{message}</Box>;
-};
+import React, { useState } from 'react'
+import axios from 'axios'
+import { Button, Image, Text } from 'rebass'
+import { Flex, Box } from 'reflexbox'
+import { Label } from '@rebass/forms'
+import { Formik, Field, Form, ErrorMessage } from 'formik'
+import get from 'lodash/get'
+import Input from '../Input'
+import Spinner from '../Spinner'
+import Message from '../Message'
+import validate from './validation'
 
 export default () => {
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState({
+    text: '',
+    color: 'black',
+  })
 
   const handleSubmit = async (values, actions) => {
-    setMessage("");
+    setMessage({
+      text: '',
+      type: 'info',
+    })
     try {
       const response = await axios.post(
-        "https://32f2jzoot4.execute-api.us-east-1.amazonaws.com/default/fe-takehome-api",
+        'https://32f2jzoot4.execute-api.us-east-1.amazonaws.com/default/fe-takehome-api',
         values,
         {
           headers: {
-            "Content-Type": "application/json",
+            'Content-Type': 'application/json',
           },
-        }
-      );
+        },
+      )
       if (response.status === 200) {
-        setMessage("Form submitted successfully!");
+        setMessage({
+          text: 'Form submitted successfully!',
+          type: 'success',
+        })
       }
     } catch (e) {
-      const errorMessage = e && e.data && e.data.message;
-      if (e.status === 500) {
-        setMessage(errorMessage);
+      const status = get(e, 'response.status')
+      if (status === 500) {
+        setMessage({
+          text:
+            'There has been an error processing your request. Please try again.',
+          type: 'error',
+        })
+      } else if (status === 400) {
+        const errorMessage = get(e, 'response.data.message', '')
+        actions.setFieldError('email', errorMessage)
       }
-      actions.setFieldError("email", errorMessage);
     }
-    actions.setSubmitting(false);
-  };
+    actions.setSubmitting(false)
+  }
 
   return (
     <Flex flexWrap="wrap">
       <Box width={[1, 1 / 2]} p={3}>
-        <Image src={"https://via.placeholder.com/600"} />
+        <Image src={'https://via.placeholder.com/600'} />
       </Box>
       <Box width={[1, 1 / 2]} p={3}>
         <Formik
           initialValues={{
-            email: "fdas@kk.com",
-            password: "password123!",
-            passwordConfirm: "password123!",
-            name: "Brian",
+            email: 'fdas@kk.com',
+            password: 'password123!',
+            passwordConfirm: 'password123!',
+            name: 'Brian',
             weight: 50,
             idealWeight: 50,
           }}
@@ -60,19 +72,8 @@ export default () => {
           validate={validate}
         >
           {({ isSubmitting }) => (
-            <Box sx={{ position: "relative" }}>
-              {isSubmitting && (
-                <Box
-                  sx={{
-                    position: "absolute",
-                    top: "50%",
-                    left: "50%",
-                    transform: "translate(-50%, -50%)",
-                  }}
-                >
-                  <Loader size={150} color={"#123abc"} />
-                </Box>
-              )}
+            <Box sx={{ position: 'relative' }}>
+              {isSubmitting && <Spinner />}
               <Box
                 sx={{
                   opacity: isSubmitting ? 0.3 : 1,
@@ -125,7 +126,7 @@ export default () => {
                       component={Text}
                     />
                   </Box>
-                  <Box sx={{ textAlign: "center" }} py={2}>
+                  <Box sx={{ textAlign: 'center' }} py={2}>
                     <Button variant="primary" type="submit">
                       Submit
                     </Button>
@@ -138,5 +139,5 @@ export default () => {
         <Message message={message} />
       </Box>
     </Flex>
-  );
-};
+  )
+}
