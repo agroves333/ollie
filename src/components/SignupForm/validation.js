@@ -13,9 +13,7 @@ export default (values) => {
   if (!values.password) {
     errors.password = 'Required'
   } else if (
-    !/^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/.test(
-      values.password,
-    )
+    !/^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/.test(values.password)
   ) {
     errors.password =
       'Invalid password. Password must be at least 8 characters, contain 1 letter, 1 number and 1 special character'
