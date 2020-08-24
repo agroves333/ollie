@@ -12,6 +12,6 @@ export default () => (
       transform: 'translate(-50%, -50%)',
     }}
   >
-    <Loader size={150} color={theme.colors.primary} />
+    <Loader size={100} color={theme.colors.primary} />
   </Box>
 )

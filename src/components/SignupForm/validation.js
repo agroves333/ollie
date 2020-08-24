@@ -38,11 +38,9 @@ export default (values) => {
     errors.weight = weightRestraintError
   }
 
-  if (!values.idealWeight) {
-    errors.idealWeight = 'Required'
-  } else if (
-    values.idealWeight < MIN_WEIGHT ||
-    values.idealWeight > MAX_WEIGHT
+  if (
+    values.idealWeight &&
+    (values.idealWeight < MIN_WEIGHT || values.idealWeight > MAX_WEIGHT)
   ) {
     errors.idealWeight = weightRestraintError
   }

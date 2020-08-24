@@ -1,6 +1,5 @@
 import React from 'react'
-import './App.css'
-import SignupForm from './components/SignupForm'
+import SignupForm from '../SignupForm'
 import { Box } from 'rebass'
 
 export default (props) => (

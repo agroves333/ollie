@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import get from 'lodash/get'
 import { Button, Image, Text } from 'rebass'
 import { Flex, Box } from 'reflexbox'
 import { Label } from '@rebass/forms'
 import { Formik, Field, Form, ErrorMessage } from 'formik'
-import get from 'lodash/get'
 import Input from '../Input'
 import Spinner from '../Spinner'
 import Message from '../Message'
@@ -82,12 +82,22 @@ export default () => {
                 <Form>
                   <Box py={2}>
                     <Label htmlFor="email">Email</Label>
-                    <Field type="email" name="email" component={Input} />
+                    <Field
+                      type="email"
+                      name="email"
+                      component={Input}
+                      aria-required="true"
+                    />
                     <ErrorMessage name="email" color="red" component={Text} />
                   </Box>
                   <Box py={2}>
                     <Label htmlFor="password">Password</Label>
-                    <Field name="password" type="password" component={Input} />
+                    <Field
+                      name="password"
+                      type="password"
+                      component={Input}
+                      aria-required="true"
+                    />
                     <ErrorMessage
                       name="password"
                       color="red"
@@ -100,6 +110,7 @@ export default () => {
                       name="passwordConfirm"
                       type="password"
                       component={Input}
+                      aria-required="true"
                     />
                     <ErrorMessage
                       name="passwordConfirm"
@@ -109,12 +120,17 @@ export default () => {
                   </Box>
                   <Box py={2}>
                     <Label htmlFor="name">Name</Label>
-                    <Field name="name" component={Input} />
+                    <Field name="name" component={Input} aria-required="true" />
                     <ErrorMessage name="name" color="red" component={Text} />
                   </Box>
                   <Box py={2}>
                     <Label htmlFor="weight">Weight</Label>
-                    <Field name="weight" type="number" component={Input} />
+                    <Field
+                      name="weight"
+                      type="number"
+                      component={Input}
+                      aria-required="true"
+                    />
                     <ErrorMessage name="weight" color="red" component={Text} />
                   </Box>
                   <Box py={2}>
