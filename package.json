@@ -16,6 +16,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "react-spinners": "^0.9.0",
     "rebass": "^4.0.7",
     "reflexbox": "^4.0.6"
   },
