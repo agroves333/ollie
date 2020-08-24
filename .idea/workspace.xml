@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bfada3f-e737-40b8-937f-9768f6ae897c" name="Default Changelist" comment="" />
+    <list default="true" id="0bfada3f-e737-40b8-937f-9768f6ae897c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignupForm/SignupForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignupForm/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Toast/Toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1gWE6Q1NeCIC7pBwzVedn7dQvK1" />
   <component name="ProjectViewState">
@@ -18,6 +42,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -27,10 +60,25 @@
       <option name="presentableId" value="Default" />
       <updated>1598221773267</updated>
       <workItem from="1598221777152" duration="64000" />
+      <workItem from="1598221874127" duration="17523000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="39" key="SettingsEditor" timestamp="1598226068383">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1598226068383" />
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598232746292">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1598232746292" />
+    <state x="338" y="155" width="604" height="490" key="find.popup" timestamp="1598281178046">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="338" y="155" width="604" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1598281178046" />
   </component>
 </project>
