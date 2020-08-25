@@ -1,5 +1,5 @@
 import React from 'react'
-import SignupForm from '../SignupForm'
+import SignupForm from '@ollie/components/SignupForm'
 import { Box } from 'rebass'
 
 export default (props) => (

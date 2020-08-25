@@ -1,7 +1,7 @@
 import React from 'react'
 import Loader from 'react-spinners/ClipLoader'
 import { Box } from 'rebass'
-import theme from '../../theme'
+import theme from '@ollie/theme'
 
 export default () => (
   <Box
