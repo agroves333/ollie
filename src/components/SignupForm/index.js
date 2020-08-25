@@ -51,7 +51,7 @@ export default () => {
   }
 
   return (
-    <Flex flexWrap="wrap">
+    <Flex flexWrap="wrap" justifyContent="center" alignItems="center">
       <Box width={[1, 1 / 2]} p={3}>
         <Image src={'https://via.placeholder.com/600'} />
       </Box>
