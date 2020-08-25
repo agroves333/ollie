@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ollie/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/ollie/static/js/main.78e7e99c.chunk.js",
-    "main.js.map": "/ollie/static/js/main.78e7e99c.chunk.js.map",
+    "main.js": "/ollie/static/js/main.2eb5843a.chunk.js",
+    "main.js.map": "/ollie/static/js/main.2eb5843a.chunk.js.map",
     "runtime-main.js": "/ollie/static/js/runtime-main.13cb2938.js",
     "runtime-main.js.map": "/ollie/static/js/runtime-main.13cb2938.js.map",
-    "static/js/2.b6fd4c80.chunk.js": "/ollie/static/js/2.b6fd4c80.chunk.js",
-    "static/js/2.b6fd4c80.chunk.js.map": "/ollie/static/js/2.b6fd4c80.chunk.js.map",
+    "static/js/2.1f2d3db2.chunk.js": "/ollie/static/js/2.1f2d3db2.chunk.js",
+    "static/js/2.1f2d3db2.chunk.js.map": "/ollie/static/js/2.1f2d3db2.chunk.js.map",
     "index.html": "/ollie/index.html",
-    "precache-manifest.bb8272ec62e9208776ec073ab1583414.js": "/ollie/precache-manifest.bb8272ec62e9208776ec073ab1583414.js",
+    "precache-manifest.336fe48658ab5cc1de28f459f8016b40.js": "/ollie/precache-manifest.336fe48658ab5cc1de28f459f8016b40.js",
     "service-worker.js": "/ollie/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/ollie/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.b6fd4c80.chunk.js.LICENSE.txt": "/ollie/static/js/2.b6fd4c80.chunk.js.LICENSE.txt"
+    "static/js/2.1f2d3db2.chunk.js.LICENSE.txt": "/ollie/static/js/2.1f2d3db2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.13cb2938.js",
-    "static/js/2.b6fd4c80.chunk.js",
+    "static/js/2.1f2d3db2.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.78e7e99c.chunk.js"
+    "static/js/main.2eb5843a.chunk.js"
   ]
 }
