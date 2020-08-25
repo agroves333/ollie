@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f22819d3ff8b461add78f7f3a137201",
+    "revision": "bf637d55d604329a46f823b28cec02be",
     "url": "/ollie/index.html"
   },
   {
-    "revision": "9cf299bac60bca7f9c02",
+    "revision": "58b2f77e907ef9ac9e0e",
     "url": "/ollie/static/css/main.88824ec2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ollie/static/js/2.1f2d3db2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cf299bac60bca7f9c02",
-    "url": "/ollie/static/js/main.8594c8a7.chunk.js"
+    "revision": "58b2f77e907ef9ac9e0e",
+    "url": "/ollie/static/js/main.9b78f563.chunk.js"
   },
   {
     "revision": "264c18559ed420d25b80",
