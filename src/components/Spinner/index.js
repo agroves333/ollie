@@ -1,6 +1,6 @@
 import React from 'react'
 import Loader from 'react-spinners/ClipLoader'
-import { Box } from 'reflexbox'
+import { Box } from 'rebass'
 import theme from '../../theme'
 
 export default () => (

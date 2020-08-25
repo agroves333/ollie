@@ -6,22 +6,17 @@
   "dependencies": {
     "@rebass/forms": "^4.0.6",
     "@rebass/preset": "^4.0.5",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
     "axios": "^0.20.0",
     "classnames": "^2.2.6",
     "emotion-theming": "^10.0.27",
     "formik": "^2.1.5",
-    "gh-pages": "^3.1.0",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "react-spinners": "^0.9.0",
-    "rebass": "^4.0.7",
-    "reflexbox": "^4.0.6"
+    "rebass": "^4.0.7"
   },
   "scripts": {
     "start": "react-scripts start --no-cache",
@@ -47,11 +42,15 @@
     ]
   },
   "devDependencies": {
+		"gh-pages": "^3.1.0",
     "husky": ">=4",
     "lint-staged": ">=10",
     "msw": "^0.20.5",
-    "prettier": "2.0.5"
-  },
+    "prettier": "2.0.5",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2"
+	},
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
