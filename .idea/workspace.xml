@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bfada3f-e737-40b8-937f-9768f6ae897c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignupForm/SignupForm.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spinner/Spinner.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Message/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Message/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SignupForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignupForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Spinner/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Input" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
@@ -40,13 +39,31 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Input" />
+      <recent name="$PROJECT_DIR$/src/components/Spinner" />
+      <recent name="$PROJECT_DIR$/src/components/SignupForm" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/App" />
       <recent name="$PROJECT_DIR$/src/components/Input" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.SignupForm.handles server error">
+  <component name="RunManager" selected="Jest.Spinner">
+    <configuration name="SignupForm" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/SignupForm/SignupForm.test.js" />
+      <test-names>
+        <test-name value="SignupForm" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="SignupForm.handles server error" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -89,36 +106,26 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="loads and displays greeting" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Spinner" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/SignupForm/SignupForm.test.js" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/Spinner/Spinner.test.js" />
       <test-names>
-        <test-name value="loads and displays greeting" />
+        <test-name value="Spinner" />
       </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="deploy" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Spinner" />
+        <item itemvalue="Jest.SignupForm" />
         <item itemvalue="Jest.SignupForm.handles server error" />
         <item itemvalue="Jest.SignupForm.submits correct values" />
         <item itemvalue="Jest.SignupForm.renders SignupForm component" />
-        <item itemvalue="Jest.loads and displays greeting" />
-        <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +138,7 @@
       <updated>1598221773267</updated>
       <workItem from="1598221777152" duration="64000" />
       <workItem from="1598221874127" duration="17523000" />
-      <workItem from="1598287013181" duration="19220000" />
+      <workItem from="1598287013181" duration="20122000" />
     </task>
     <servers />
   </component>
@@ -143,22 +150,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="342" y="70" key="#Message.renders_Message_component_with_success_type/0.0.1280.800@0.0.1280.800" timestamp="1598300943958" />
-    <state width="1238" height="281" key="GridCell.Tab.0.bottom" timestamp="1598311600608">
+    <state width="1238" height="292" key="GridCell.Tab.0.bottom" timestamp="1598366515303">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="281" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598311600608" />
-    <state width="1238" height="281" key="GridCell.Tab.0.center" timestamp="1598311600607">
+    <state width="1238" height="292" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1598366515303" />
+    <state width="1238" height="292" key="GridCell.Tab.0.center" timestamp="1598366515302">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="281" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598311600607" />
-    <state width="1238" height="281" key="GridCell.Tab.0.left" timestamp="1598311600606">
+    <state width="1238" height="292" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1598366515302" />
+    <state width="1238" height="292" key="GridCell.Tab.0.left" timestamp="1598366515301">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="281" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598311600606" />
-    <state width="1238" height="281" key="GridCell.Tab.0.right" timestamp="1598311600607">
+    <state width="1238" height="292" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1598366515301" />
+    <state width="1238" height="292" key="GridCell.Tab.0.right" timestamp="1598366515302">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="281" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598311600607" />
+    <state width="1238" height="292" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1598366515302" />
     <state width="1238" height="264" key="GridCell.Tab.1.bottom" timestamp="1598301867371">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
